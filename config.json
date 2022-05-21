@@ -1,0 +1,14 @@
+{
+	"port": 8080,
+	"bodyLimit": "100kb",
+	"corsHeaders": ["Link"],
+	"token":{
+		"secret":"some-tricky-client-secret",
+		"expiresIn":"2d"
+	},
+	
+	"refreshToken":{
+		"secret":"some-tricky-refresh-token-secret",
+		"expiresIn":"7d"
+	}
+}
